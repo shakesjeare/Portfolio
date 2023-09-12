@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(191, 218, 188), #e8edf9);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-shadow: 0.1px 0.1px 0.1px #888;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px; /* Adjust this value according to your preference */
+    height: 200px; /* Adjust this value according to your preference */
+    object-fit: cover; /* This will ensure the image covers the full width/height of the container without distorting the aspect ratio */
+    filter: blur(0px); /* This will make the image less focused */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #888;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #05a;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
